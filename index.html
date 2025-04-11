@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">Godavari</div>
+        <input type="text" class="search-bar" placeholder="Search for products">
+        <button onclick="showCart()">Cart (<span id="cart-count">0</span>)</button>
+        <button onclick="showLogin()">Login</button>
+        <button onclick="showSignup()">Sign UP</button>
+    </header>
+
+    <nav class="categories">
+        <a href="#">Home</a>
+        <a href="#">Coconut products</a>
+        <a href="#">Banana products</a>
+        <a href="#">Mango products</a>
+        <a href="#">Help</a>
+        <a href="#">Support</a>
+    </nav>
+
+    <section class="product-list">
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="coconut.jpg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+        <div class="product">
+            <img id="main-image" src="mango.jpeg" alt="Main Product Image" />
+        
+            <div class="thumbnail-container">
+              <button class="scroll-btn" onclick="scrollThumbnails(-100)">&#8249;</button>
+              
+              <div class="thumbnails" id="thumbnail-scroll">
+                <img src="pandu.jpg" onclick="swapImage(this)" />
+                <img src="mango.jpeg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+                <img src="banana.jpg" onclick="swapImage(this)" />
+                <img src="coconut.jpg" onclick="swapImage(this)" />
+              </div>
+        
+              <button class="scroll-btn" onclick="scrollThumbnails(100)">&#8250;</button>
+            </div>
+            <h3>Gaming Console</h3>
+            <p>Next-gen gaming console with 1TB storage, 4K resolution, and exclusive games.</p>
+            <p><strong>Price:</strong> $400</p>
+            <button onclick="addToCart('Gaming Console', 400)">Add to Cart</button>
+            <button onclick="Buy now('Smartphone', 500)">Buy now</button>
+        </div>
+
+    
+    <footer>
+        <p>&copy; 2025 Flipkart Clone</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
